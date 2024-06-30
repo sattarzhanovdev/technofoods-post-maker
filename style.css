@@ -28,6 +28,8 @@ button{
   top: -250px;
 }
 
+
+
 #capture .left{
   width: 919px;
   height: 1150px;
@@ -90,14 +92,46 @@ button{
   top: -500px;
 }
 
+.info div {
+  display: flex;
+}
+
 .info div input{
   width: 500px;
   height: 40px;
-  padding: 0 15px
+  padding: 0 15px;
 }
 
 .info div select{
   width: 534px;
   height: 50px;
-  padding: 0 15px
+  padding: 0 15px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  #capture{
+    transform: scale(0.3);
+    left: -500px;
+    top: -500px;
+  }
+  .info{
+    top: -900px;
+    left: -20px;
+  }
+  .info div input{
+    width: 350px;
+    display: flex;
+  }
+  .info div select{
+    width: 384px;
+  }
+
+  button{
+    top: -1100px;
+    left: -20px;
+  }
+  
 }
