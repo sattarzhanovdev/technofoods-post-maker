@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technofoods - make posts</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="capture">
+    <div class="left">
+      <h1 class="name"></h1>
+      <img src="" alt="" class="flag">
+      <ul>
+        <li class="info1"></li>
+        <li class="info2"></li>
+        <li class="info3"></li>
+        <li class="info4"></li>
+        <li class="info5"></li>
+        <li class="info6"></li>
+      </ul>
+      <img src="./logo.svg" alt="">
+    </div>
+    <div class="right">
+      <img src="" alt="" class="image">
+    </div>
+  </div>
+  <div class="info">
+    <div>
+      <input type="text" placeholder="Название" class="nameInput">
+    </div>
+    <div>
+      <select class="countryInput">
+        <option>Выбрать страну</option>
+        <option value="Кыргызстан">Кыргызстан</option>
+        <option value="Россия">Россия</option>
+        <option value="Китай">Китай</option>
+      </select>
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 1" class="info1Input">
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 2" class="info2Input">
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 3" class="info3Input">
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 4" class="info4Input">
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 5" class="info5Input">
+    </div>
+    <div>
+      <input type="text" placeholder="Характеристика 6" class="info6Input">
+    </div>
+    <div>
+      Фото: <input type="file" class="fileInput">
+    </div>
+  </div>
+  <button id="btnCapture">Экспорт</button>
+  <script src="script.js"></script>
+</body>
+</html>

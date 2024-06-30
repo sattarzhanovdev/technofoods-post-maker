@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  font-family: 'Inter';
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+button{
+  width: 250px;
+  height: 40px;
+  margin: 200px 50px;
+  position: relative;
+  top: -600px;
+}
+
+#capture{
+  width: 1440px;
+  height: 1440px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transform: scale(0.6);
+  left: -250px;
+  top: -250px;
+}
+
+#capture .left{
+  width: 919px;
+  height: 1150px;
+  background: #F0F0F0;
+  border-radius: 85px;
+  margin-left: 41px;
+  padding: 96px 55px;
+}
+
+#capture .left h1{
+  font-size: 56px;
+  margin-bottom: 23px;
+}
+
+#capture .left .flag{
+  width: 100px;
+  object-fit: contain;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+#capture .left ul{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 46px;
+  padding: 0;
+}
+
+#capture .left ul li{
+  font-size: 36px;
+  font-weight: 400;
+  list-style: none;  
+  padding: 0;
+}
+
+#capture .left img{
+  margin-top: 200px;
+}
+
+#capture .right{
+  position: absolute;
+  right: 70px;
+}
+
+#capture .right img{
+  width: 600px;
+}
+
+
+.info{
+  margin-left: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: -500px;
+}
+
+.info div input{
+  width: 500px;
+  height: 40px;
+  padding: 0 15px
+}
+
+.info div select{
+  width: 534px;
+  height: 50px;
+  padding: 0 15px
+}
