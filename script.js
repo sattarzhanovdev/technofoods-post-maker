@@ -57,6 +57,15 @@ countryInput.addEventListener('change', e => {
     flag.setAttribute('src' , './kyrgyzstan.png')
   }else if(value === 'Россия'){
     flag.setAttribute('src' , './russia.png')
+  }
+  else if(value === 'Франция'){
+    flag.setAttribute('src' , './france.png')
+  }
+  else if(value === 'Италия'){
+    flag.setAttribute('src' , './italy.png')
+  }
+  else if(value === 'Германия'){
+    flag.setAttribute('src' , './germany.png')
   }else{
     flag.setAttribute('src' , './china.png')
   }
